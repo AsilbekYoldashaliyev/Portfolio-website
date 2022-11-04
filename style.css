@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #020c1b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 15rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.9rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.resume {
+  background-color: #020c1b;
+  color: #c8c4c4;
+  border: solid 1px #c8c4c4;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+nav div ul li a {
+  color: #c8c4c4;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  background-color: #020c1b;
+  width: 100%;
+  height: 50rem;
+}
+
+.hi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56rem;
+  height: 10rem;
+  color: rgb(94, 240, 206);
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  color: rgb(217, 217, 217);
+  height: 8rem;
+  width: 87rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.paragraph {
+  height: 5.6rem;
+  width: 97rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(168, 178, 209);
+  font-size: 2.4rem;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(126, 136, 163);
+  width: 86rem;
+  height: 16rem;
+  font-size: 1.5rem;
+}
+
+.lorem {
+  width: 45rem;
+  font-family: "Poppins", sans-serif;
+  height: 15rem;
+}
+
+.btn-book {
+  display: flex;
+  background-color: #020c1b;
+  border: solid 1px #c8c4c4;
+  padding: 1.2rem 8rem;
+  border-radius: 1rem;
+  color: #c8c4c4;
+  font-size: 1.8rem;
+}
+
+.btn_read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 69rem;
+  height: 10rem;
+}
+
+.about-me {
+  padding: 9.6rem 0;
+  width: 100%;
+  height: 60rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  height: 50rem;
+  font-size: 1.6rem;
+  color: rgb(245, 245, 245);
+}
+
+.about-title h2 {
+  display: flex;
+  height: 9rem;
+  font-size: 3rem;
+  gap: 1rem;
+}
+
+.about-title h2 p {
+  font-size: 1rem;
+  display: flex;
+  align-items: end;
+  height: 3.2rem;
+  color: rgb(64, 74, 95);
+}
+
+.long-text {
+  height: 17rem;
+  color: rgb(106, 116, 141);
+}
+
+.normal-text {
+  color: rgb(106, 116, 141);
+}
+
+.short-text {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  color: rgb(106, 116, 141);
+}
+
+.text-java {
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+}
+
+.text-java span {
+  color: rgb(88, 225, 194);
+}
+
+.logos {
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  display: grid;
+  column-gap: 2rem;
+  height: 20rem;
+  width: 5rem;
+  left: 4rem;
+  top: 7rem;
+}
+
+.icons ion-icon {
+  font-size: 3rem;
+  color: rgb(168, 178, 209);
+}
+
+.worked {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6rem 0;
+}
+
+.container-work {
+  width: 90rem;
+  height: 40rem;
+}
+
+.title_work {
+  display: flex;
+  height: 8rem;
+  width: 80rem;
+  color: rgb(217, 217, 217);
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  gap: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  gap: 7rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.prosoft p {
+  font-size: 1.2rem;
+  color: rgb(147, 157, 186);
+}
+
+.weza {
+  background-color: rgb(22, 61, 65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.4rem;
+  width: 15rem;
+}
+
+.prosoft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17%;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.software {
+  width: 75%;
+  color: rgb(255, 255, 255);
+}
+
+.software h4 {
+  font-size: 2rem;
+}
+
+.software h6 {
+  font-size: 1.2rem;
+  height: 5rem;
+}
+
+.software p {
+  font-size: 1.4rem;
+  width: 50rem;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.4rem;
+}
+
+.group-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.4rem;
+}
+
+.group-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.4rem;
+}
+
+.group-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.4rem;
+}
+
+.text_box {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.text_box div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.title_work p {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+
+.build {
+  height: 80%;
+  width: 100%;
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 94%;
+  gap: 1rem;
+  color: #d9d9d9;
+}
+
+.box-title h2 {
+  font-size: 2.5rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.build-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85rem;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95rem;
+  height: 27rem;
+  background-color: rgb(35, 53, 84);
+}
+
+.build-container ul {
+  display: grid;
+  row-gap: 1rem;
+  list-style: none;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44rem;
+  height: 27rem;
+}
+
+.tutorial {
+  width: 40rem;
+  height: 19rem;
+}
+
+.teamcity {
+  padding-top: 3rem;
+  height: 27rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  width: 45rem;
+}
+
+.project {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: rgb(100, 255, 218);
+}
+
+.runner {
+  font-size: 2rem;
+  width: 30rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.lorem-text {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.logo_two {
+  display: flex;
+  font-size: 3rem;
+  gap: 2rem;
+  color: rgb(100, 255, 218);
+  padding-top: 1rem;
+}
+
+.one {
+  border-radius: 0 5rem 0 5rem;
+}
+
+.two {
+  border-radius: 5rem 0 5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.algolia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90.8rem;
+  padding: 9.6rem 0;
+  background-color: rgb(28, 83, 131);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(12, 5%);
+  grid-template-columns: repeat(15, 5%);
+  width: 84%;
+  height: 90%;
+  background-color: #9a0808;
+  column-gap: 2.3rem;
+  row-gap: 2.3rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-other {
+  background-color: #634f4f;
+  grid-column: span 15;
+  grid-row: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title_box {
+  width: 35rem;
+  display: grid;
+  row-gap: 1.3rem;
+}
+
+.title_box h3 {
+  font-size: 2.3rem;
+}
+
+.title_box h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  width: 29rem;
+}
+
+.empty {
+  background-color: #d9d9d9;
+  grid-row: span 8;
+  grid-column: span 1;
+}
+
+.empt-y {
+  background-color: aqua;
+  grid-row: span 8;
+}
+
+.first {
+  background-color: #eeff;
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.second {
+  background-color: aqua;
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.third {
+  background-color: rgb(71, 76, 76);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.fourth {
+  background-color: chartreuse;
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.fifth {
+  background-color: rgb(46, 155, 155);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.sixth {
+  background-color: rgb(184, 200, 168);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.show {
+  background-color: #634f4f;
+  grid-column: span 15;
+  grid-row: span 2;
+}
