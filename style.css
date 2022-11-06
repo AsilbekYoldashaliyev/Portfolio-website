@@ -1,0 +1,804 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #020c1b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 15rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.9rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.resume {
+  background-color: #020c1b;
+  color: #c8c4c4;
+  border: solid 1px #c8c4c4;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+nav div ul li a {
+  color: #c8c4c4;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  background-color: #020c1b;
+  width: 100%;
+  height: 50rem;
+}
+
+.hi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56rem;
+  height: 10rem;
+  color: rgb(94, 240, 206);
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  color: rgb(217, 217, 217);
+  height: 8rem;
+  width: 87rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.paragraph {
+  height: 5.6rem;
+  width: 97rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(168, 178, 209);
+  font-size: 2.4rem;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(126, 136, 163);
+  width: 86rem;
+  height: 16rem;
+  font-size: 1.5rem;
+}
+
+.lorem {
+  width: 45rem;
+  font-family: "Poppins", sans-serif;
+  height: 15rem;
+}
+
+.btn-book {
+  display: flex;
+  background-color: #020c1b;
+  border: solid 1px #c8c4c4;
+  padding: 1.2rem 8rem;
+  border-radius: 1rem;
+  color: #c8c4c4;
+  font-size: 1.8rem;
+}
+
+.btn_read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 69rem;
+  height: 10rem;
+}
+
+.about-me {
+  padding: 9.6rem 0;
+  width: 100%;
+  height: 60rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  height: 50rem;
+  font-size: 1.6rem;
+  color: rgb(245, 245, 245);
+}
+
+.about-title h2 {
+  display: flex;
+  height: 9rem;
+  font-size: 3rem;
+  gap: 1rem;
+}
+
+.about-title h2 p {
+  font-size: 1rem;
+  display: flex;
+  align-items: end;
+  height: 3.2rem;
+  color: rgb(64, 74, 95);
+}
+
+.long-text {
+  height: 17rem;
+  color: rgb(106, 116, 141);
+}
+
+.normal-text {
+  color: rgb(106, 116, 141);
+}
+
+.short-text {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  color: rgb(106, 116, 141);
+}
+
+.text-java {
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+}
+
+.text-java span {
+  color: rgb(88, 225, 194);
+}
+
+.logos {
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  display: grid;
+  column-gap: 2rem;
+  height: 20rem;
+  width: 5rem;
+  left: 4rem;
+  top: 7rem;
+}
+
+.icons ion-icon {
+  font-size: 3rem;
+  color: rgb(168, 178, 209);
+}
+
+.worked {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6rem 0;
+}
+
+.container-work {
+  width: 90rem;
+  height: 40rem;
+}
+
+.title_work {
+  display: flex;
+  height: 8rem;
+  width: 80rem;
+  color: rgb(217, 217, 217);
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  gap: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  gap: 7rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.prosoft p {
+  font-size: 1.2rem;
+  color: rgb(147, 157, 186);
+}
+
+.weza {
+  background-color: rgb(22, 61, 65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.4rem;
+  width: 15rem;
+}
+
+.prosoft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17%;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.software {
+  width: 75%;
+  color: rgb(255, 255, 255);
+}
+
+.software h4 {
+  font-size: 2rem;
+}
+
+.software h6 {
+  font-size: 1.2rem;
+  height: 5rem;
+}
+
+.software p {
+  font-size: 1.4rem;
+  width: 50rem;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.4rem;
+}
+
+.group-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.4rem;
+}
+
+.group-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.4rem;
+}
+
+.group-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.4rem;
+}
+
+.text_box {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.text_box div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.title_work p {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+
+.build {
+  height: 80%;
+  width: 100%;
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 94%;
+  gap: 1rem;
+  color: #d9d9d9;
+}
+
+.box-title h2 {
+  font-size: 2.5rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.build-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85rem;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95rem;
+  height: 27rem;
+  background-color: rgb(35, 53, 84);
+}
+
+.build-container ul {
+  display: grid;
+  row-gap: 1rem;
+  list-style: none;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44rem;
+  height: 27rem;
+}
+
+.tutorial {
+  width: 40rem;
+  height: 19rem;
+}
+
+.teamcity {
+  padding-top: 3rem;
+  height: 27rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+  width: 45rem;
+}
+
+.project {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: rgb(100, 255, 218);
+}
+
+.runner {
+  font-size: 2rem;
+  width: 30rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.lorem-text {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.logo_two {
+  display: flex;
+  font-size: 3rem;
+  gap: 2rem;
+  color: rgb(100, 255, 218);
+  padding-top: 1rem;
+}
+
+.one {
+  border-radius: 0 5rem 0 5rem;
+}
+
+.two {
+  border-radius: 5rem 0 5rem 0;
+}
+
+.algolia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90.8rem;
+  padding: 9.6rem 0;
+}
+
+.grid-container {
+  padding-left: 8rem;
+  display: grid;
+  grid-template-rows: repeat(12, 5%);
+  grid-template-columns: repeat(15, 5%);
+  width: 84%;
+  height: 90%;
+  column-gap: 2.3rem;
+  row-gap: 2.3rem;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-other {
+  grid-column: span 15;
+  grid-row: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d9d9d9;
+}
+
+.title_box {
+  width: 40rem;
+  display: grid;
+  row-gap: 1.3rem;
+}
+
+.title_box h3 {
+  font-size: 2.3rem;
+}
+
+.title_box h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  width: 29rem;
+}
+
+.empty {
+  grid-row: span 8;
+  grid-column: span 1;
+}
+
+.empt-y {
+  grid-row: span 8;
+}
+
+.first {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.second {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.third {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.fourth {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.fifth {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.sixth {
+  background-color: rgb(17, 34, 64);
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.show {
+  grid-column: span 15;
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-folder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32.5rem;
+  height: 4.5rem;
+
+  font-size: 3rem;
+}
+
+.icons-folder ion-icon {
+  padding: 2rem;
+  color: rgb(100, 255, 218);
+}
+
+.title-grid {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: rgb(168, 178, 209);
+  width: 22rem;
+  height: 6.5rem;
+  font-size: 1.1rem;
+}
+
+.lorem-title-box {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: rgb(192, 194, 198);
+  width: 33rem;
+  height: 3.8rem;
+}
+
+.lorem-title-box div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29rem;
+  font-size: 1.1rem;
+}
+
+.php {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  color: rgb(168, 178, 209);
+  height: 4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.show div {
+  width: 41rem;
+}
+
+.show div button {
+  padding: 1rem 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background-color: rgb(17, 34, 64);
+  font-size: 1.4rem;
+  color: rgb(94, 240, 206);
+  border-color: rgb(94, 240, 206);
+}
+
+.publication {
+  display: flex;
+  width: auto;
+  height: 50rem;
+  padding: 9rem 0;
+}
+
+.public-container {
+  width: 100%;
+  height: 55rem;
+}
+
+.title-my {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 81%;
+  height: 5rem;
+  gap: 0.5rem;
+}
+
+.title-my h4 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.title-my p {
+  color: rgb(64, 74, 95);
+}
+
+.years {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 77%;
+  height: 8rem;
+  gap: 1.4rem;
+}
+
+.number {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  gap: 3.9rem;
+  font-size: 1.3rem;
+  color: rgb(158, 167, 198);
+}
+
+.present {
+  background-color: rgb(85, 95, 118);
+  color: rgb(134, 216, 213);
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  height: 2.4rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.gitops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 35rem;
+  width: 96%;
+  list-style: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 700;
+  height: 23rem;
+
+  font-family: "Poppins", sans-serif;
+  color: rgb(168, 178, 209);
+}
+
+.city-item {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 23rem;
+  width: 26rem;
+  border-radius: 5rem 5rem 0 0;
+  background-image: url(./images/tc\ 3.svg);
+  background-size: 30rem;
+}
+
+.right {
+  height: 23rem;
+  width: 5rem;
+
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 700;
+  height: 23rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(168, 178, 209);
+}
+
+.city-item div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26rem;
+  height: 5.6rem;
+  background-color: rgb(30, 45, 78);
+  font-family: "Poppins", sans-serif;
+}
+
+.city-item div p {
+  display: flex;
+  align-items: center;
+  width: 22rem;
+  background-color: rgb(30, 45, 78);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(100, 255, 218);
+}
+
+.footer-gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14rem 0;
+  width: 100%;
+  height: 45rem;
+}
+
+.touch {
+  width: 80%;
+  height: 45rem;
+}
+
+.bold_title {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 11rem;
+  font-size: 4.3rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: rgb(217, 217, 217);
+}
+
+.lorem_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.text_boxes {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 8rem;
+  width: 70rem;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.hello {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  height: 11rem;
+}
+
+.hello button {
+  padding: 1.2rem 7.4rem;
+  border-radius: 1rem;
+  background-color: rgb(100, 255, 218);
+  font-weight: 700;
+  color: rgb(17, 34, 64);
+}
+
+.design {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 8.5rem;
+  color: rgb(158, 167, 198);
+}
+
+.top {
+  position: relative;
+}
+
+.last-img {
+  position: absolute;
+  bottom: 2rem;
+  left: 23rem;
+  width: 7rem;
+}
