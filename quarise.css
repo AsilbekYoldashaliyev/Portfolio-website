@@ -108,6 +108,10 @@ gap: 9rem;
 /**************************/
 
 @media (max-width: 34em) {
+  html {
+    font-size: 25%;
+  }
+
 }
 
 /* 
