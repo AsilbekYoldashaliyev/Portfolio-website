@@ -2,6 +2,7 @@
 Portfolioga oxshash website
 
 <div id="top"></div>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -13,8 +14,8 @@ Portfolioga oxshash website
 <br />
 <div align="center">
 <!-- Agar logo kerak bolmasa ochirib tashlang  -->
-  <a href="https://github.com/rustamxon7/personal-budget-planner">
-    <img src="img/Portfolio.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/AsilbekYoldashaliyev">
+    <!-- <img src="img/Portfolio.png" alt="Logo" width="80" height="80"> -->
   </a>
   
 <!-- Sizning proyektingizni nomi -->
@@ -24,14 +25,14 @@ Portfolioga oxshash website
   <p align="center">
    This portfolio about Stephan Gachoka
     <br />
-    <a href="https://github.com/rustamxon7/personal-budget-planner"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AsilbekYoldashaliyev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rustamxon7/personal-budget-planner">View Demo</a>
+    <a href="https://github.com/AsilbekYoldashaliyev">View Demo</a>
     ·
-    <a href="https://github.com/rustamxon7/personal-budget-planner/issues">Report Bug</a>
+    <a href="https://github.com/AsilbekYoldashaliyev">Report Bug</a>
     ·
-    <a href="https://github.com/rustamxon7/personal-budget-planner/issues">Request Feature</a>
+    <a href="https://github.com/AsilbekYoldashaliyev">Request Feature</a>
   </p>
 </div>
 
@@ -69,7 +70,7 @@ Portfolioga oxshash website
 
 <!-- Proyektingiz haqida ma'lumot kamida 3ta gapdan tashkil topsin -->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `rustamxon7`, `personal-budget-planner`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `AsilbekYoldashaliyev`, `personal-budget-planner`, `twitter_handle`, `linkedin_username`, `email_client`, `yoldashaliyev0303@gmail.com`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -158,7 +159,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/rustamxon7/personal-budget-planner/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/AsilbekYoldashaliyev/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -189,7 +190,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/rustamxon7/personal-budget-planner](https://github.com/rustamxon7/personal-budget-planner)
+Project Link: [https://github.com/AsilbekYoldashaliyev](https://github.com/AsilbekYoldashaliyev)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
